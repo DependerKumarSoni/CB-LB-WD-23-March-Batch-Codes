@@ -1,0 +1,89 @@
+/* tag based selector */
+/* h1 {
+    color: blue;
+} */
+
+/* id based selector */
+#alpha-h1-tag {
+    color: red;
+}
+
+/* class based selector */
+/* .assign-green {
+    color: green;
+} */
+
+/* applies to all the elements on the page */
+/* * {
+    /* background-color: aqua; */
+/* } */
+
+
+h1.assign-green {
+    color: purple;
+}
+
+/* specificiy */
+
+/* .div-class.child-h1 {
+    color: black;
+} */
+
+/* .div-class {
+    .child-h1 {
+        color: red;
+    }
+} */
+
+/* attribute based selectors */
+a[href="https://www.example.com/"] {
+    color: brown;
+}
+
+/* pseudo selector */
+/* a:hover {
+    color: black;
+} */
+
+a.facebook-anchor {
+    color: red;
+}
+
+a.facebook-anchor:visited {
+    color: purple;
+}
+
+button {
+    background-color: aqua;
+}
+
+button:focus {
+    background-color: bisque;
+}
+
+/* button:disabled {
+    border: 1px solid red;
+} */
+
+/* :root {
+    background-color: burlywood;
+}
+
+* {
+    border: 2px solid red;
+} */
+
+ul {
+    background-color: cyan;
+    color: black;
+    
+    li:nth-child(2) {
+        color: red;
+        background-color: blue;
+        border: 2px solid yellow;
+    }
+}
+
+/* ul:first-child {
+    border: 2px solid red;
+} */
