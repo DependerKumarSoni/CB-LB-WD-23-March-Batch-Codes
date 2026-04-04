@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-family: sans-serif;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        height: 54px;
+        box-shadow: 0 1px 1px #eeeeee;
+        padding-left: 16px;
+        padding-right: 32px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+
+        .header__logo {
+            width: 100px;
+            padding: 18px 0;
+            /* border: 2px solid red; */
+            img {
+                width: 100%;
+            }
+        }
+
+        .header__nav {
+            height: 54px;
+
+            .nav__list {
+                display: flex;
+                list-style: none;
+                gap: 32px;
+
+                .nav__item a {
+                    color: #666666;
+                    text-decoration: none;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    .main {
+        margin-top: 54px;
+        .landing-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            .landing-section__image {
+                height: 45vh;
+                margin-top: 10vh;
+            }
+
+            .landing-section__content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 7.5vh;
+                color: #424242;
+
+                .landing-section__heading {
+                    font-size: 24px;
+                    /* line-height: 24px; */
+                    font-weight: 500;
+                    margin: 0;
+                }
+
+                .landing-section__description {
+                    font-size: 16px;
+                    margin-top: 2vh;
+                }
+
+                .landing-section__signup-button {
+                    margin-top: 4vh;
+                    padding: 12px 24px;
+                    background-color: #3880d1;
+                    color: #ffffff;
+                    border: none;
+                    font-size: 16px;
+                    font-weight: 600;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            }
+
+        }
+    }
+}
