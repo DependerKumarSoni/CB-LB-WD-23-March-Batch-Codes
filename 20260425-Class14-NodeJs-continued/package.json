@@ -1,0 +1,19 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "This is a simple notes app featuring Get and Post APIs to read and write notes respectively.",
+  "keywords": [
+    "notes"
+  ],
+  "license": "ISC",
+  "author": "Depender K. Soni",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
